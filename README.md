@@ -125,7 +125,7 @@ Responsável pela identificação de presença e movimentação.
 
 Utilizado para emissão de alerta sonoro em situações de monitoramento noturno.
 
-![Buzzer](imagens/Sensor_buzzer.png)
+![Buzzer](imagens/Sensor_buzzer.PNG)
 
 ---
 
@@ -238,9 +238,8 @@ void loop() {
 ```
 # 🔄 Diagrama Simplificado do Sistema
 
-LDR ─┐
-     ├── Arduino UNO ── LED
-PIR ─┘                └─ Buzzer
+LDR → Arduino → LED  
+PIR → Arduino → Buzzer
 
 ---
 
