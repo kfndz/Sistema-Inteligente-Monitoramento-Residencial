@@ -12,6 +12,7 @@ O sistema realiza a leitura contínua da luminosidade do ambiente e da presença
 
 Quando o ambiente está escuro e há detecção de movimento, o sistema ativa um alerta visual e sonoro, simulando um mecanismo inteligente de segurança residencial noturna.
 
+📄 O artigo acadêmico completo do projeto encontra-se disponível na pasta `artigo/`, contendo fundamentação teórica, metodologia, desenvolvimento do sistema, simulação ARM, resultados e conclusões do trabalho.
 ---
 
 # 🎯 Objetivos
