@@ -2,7 +2,9 @@
 
 Projeto acadêmico desenvolvido para a disciplina de Programação de Microprocessadores e Microcontroladores.
 
-## 📖 Sobre o Projeto
+---
+
+# 📖 Sobre o Projeto
 
 O projeto consiste no desenvolvimento de um sistema embarcado inteligente capaz de realizar monitoramento residencial automatizado utilizando sensores, Arduino e conceitos introdutórios de arquitetura ARM.
 
@@ -87,6 +89,90 @@ O sistema executa a seguinte lógica:
 ├── simulacao-arm/
 └── README.md
 ```
+
+---
+
+# 🖼️ Imagens do Projeto
+
+## 🔧 Estrutura Geral do Circuito
+
+Imagem completa do sistema embarcado desenvolvido no simulador Wokwi.
+
+![Arduino Completo](imagens/Arduino.PNG)
+
+---
+
+# 📡 Sensores e Atuadores
+
+## Sensor LDR — Monitoramento de Luminosidade
+
+Responsável pela leitura da intensidade luminosa do ambiente.
+
+![Sensor LDR](imagens/Sensor_LDR.PNG)
+
+---
+
+## Sensor PIR — Detecção de Movimento
+
+Responsável pela identificação de presença e movimentação.
+
+![Sensor PIR](imagens/Sensor_PIR.PNG)
+
+---
+
+## Buzzer — Alerta Sonoro
+
+Utilizado para emissão de alerta sonoro em situações de monitoramento noturno.
+
+![Buzzer](imagens/Sensor_buzzer.png)
+
+---
+
+# 💻 Código-Fonte do Sistema
+
+## Estrutura Principal do Algoritmo
+
+![Código Parte 1](imagens/Codigo_parte1.PNG)
+
+---
+
+## Lógica de Tomada de Decisão
+
+![Código Parte 2](imagens/Codigo_parte2.PNG)
+
+---
+
+# 🧪 Demonstração de Funcionamento
+
+## Ambiente Iluminado com Movimento
+
+O sistema identifica movimentação, porém não ativa alerta sonoro devido à luminosidade do ambiente.
+
+![Ambiente Iluminado](imagens/Captura_ambiente_iluminado.PNG)
+
+---
+
+## Movimento Detectado em Ambiente Escuro
+
+Quando há baixa luminosidade e movimentação, o sistema ativa os mecanismos de alerta automaticamente.
+
+![Movimento no Escuro](imagens/Captura_movimento_escuro.PNG)
+
+---
+
+## Sistema em Estado Seguro
+
+Situação em que não há movimentação detectada pelo sensor PIR.
+
+![Sem Movimento](imagens/Captura_sem_movimento.PNG)
+
+---
+
+## LED e Buzzer Ativados
+
+Demonstração visual do acionamento automático dos atuadores do sistema.
+
+![LED e Buzzer](imagens/Led_Buzzer_Ativado.PNG)
 
 ---
 
