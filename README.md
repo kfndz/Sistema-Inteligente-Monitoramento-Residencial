@@ -243,6 +243,79 @@ O projeto foi desenvolvido virtualmente utilizando o simulador Wokwi, permitindo
 
 ---
 
+# 🖥️ Simulação ARM
+
+Além do sistema principal desenvolvido em Arduino UNO, foi realizada uma simulação complementar utilizando Raspberry Pi Pico, plataforma baseada em arquitetura ARM.
+
+A simulação teve como objetivo demonstrar conceitos introdutórios de processamento embarcado, controle de GPIO e execução contínua de algoritmos em sistemas embarcados modernos.
+
+---
+
+## 🔄 Fluxo de Execução do Algoritmo ARM
+
+O processador executa continuamente o seguinte fluxo:
+
+```txt
+Inicialização do sistema
+        ↓
+Configuração do GPIO
+        ↓
+Acionamento do LED
+        ↓
+Temporização
+        ↓
+Desligamento do LED
+        ↓
+Repetição contínua do algoritmo
+```
+
+---
+
+## 🧩 Código da Simulação ARM
+
+```cpp
+#include "pico/stdlib.h"
+
+int main() {
+
+    const uint LED = 25;
+
+    gpio_init(LED);
+    gpio_set_dir(LED, GPIO_OUT);
+
+    while (true) {
+
+        gpio_put(LED, 1);
+        sleep_ms(1000);
+
+        gpio_put(LED, 0);
+        sleep_ms(1000);
+    }
+}
+```
+
+---
+
+## 📷 Simulação Raspberry Pi Pico
+
+### Estrutura da Plataforma ARM
+
+![Circuito ARM](simulacao-arm/arm-circuito.png)
+
+---
+
+### Código Executado na Arquitetura ARM
+
+![Código ARM](simulacao-arm/arm-codigo.png)
+
+---
+
+### Execução do Algoritmo Embarcado
+
+![LED ARM](simulacao-arm/arm-led.png)
+
+---
+
 # 🧱 Conceitos de Arquitetura ARM
 
 Durante o desenvolvimento do projeto foram estudados conceitos introdutórios de arquitetura ARM, amplamente utilizada em sistemas embarcados modernos devido à sua eficiência energética e capacidade de processamento em tempo real.
