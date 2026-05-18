@@ -12,7 +12,7 @@ O sistema realiza a leitura contínua da luminosidade do ambiente e da presença
 
 Quando o ambiente está escuro e há detecção de movimento, o sistema ativa um alerta visual e sonoro, simulando um mecanismo inteligente de segurança residencial noturna.
 
-📄 [Acessar Artigo Acadêmico em PDF](artigo/Artigo Monitoramento Residencial Arduino Arm.pdf)
+📄 [Acessar Artigo Acadêmico em PDF](artigo/artigo-monitoramento-residencial-arduino.pdf)
 ---
 
 # 🎯 Objetivos
