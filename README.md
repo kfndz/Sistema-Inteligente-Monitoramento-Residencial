@@ -234,7 +234,13 @@ void loop() {
 
   delay(1000);
 }
+
 ```
+# 🔄 Diagrama Simplificado do Sistema
+
+LDR ─┐
+     ├── Arduino UNO ── LED
+PIR ─┘                └─ Buzzer
 
 ---
 
