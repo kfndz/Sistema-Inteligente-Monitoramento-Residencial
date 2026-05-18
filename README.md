@@ -300,19 +300,19 @@ int main() {
 
 ### Estrutura da Plataforma ARM
 
-![Circuito ARM](simulacao-arm/arm-circuito.png)
+![Circuito ARM](simulacao-arm/arm-circuito.PNG)
 
 ---
 
 ### Código Executado na Arquitetura ARM
 
-![Código ARM](simulacao-arm/arm-codigo.png)
+![Código ARM](simulacao-arm/arm-codigo.PNG)
 
 ---
 
 ### Execução do Algoritmo Embarcado
 
-![LED ARM](simulacao-arm/arm-led.png)
+![LED ARM](simulacao-arm/arm-led.PNG)
 
 ---
 
