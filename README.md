@@ -347,7 +347,7 @@ O projeto demonstrou a aplicação prática de:
 
 # 🎥 Demonstração
 
-Adicionar vídeo demonstrando o funcionamento do sistema.
+📺 [Assistir Demonstração no YouTube](https://youtu.be/KiuQRioK5vM)
 
 ---
 
